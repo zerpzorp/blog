@@ -1,0 +1,51 @@
+/* Subscription Form */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+form li+li {
+    margin-top: 1em;
+    padding: 20px 0;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+}
+
+input {
+    font: 1em sans-serif;
+    width: 300px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-family: "Montserrat", sans-serif;
+    padding-left: 1em;
+}
+
+textarea:focus,
+input:focus {
+    outline-color: steelblue;
+}
+
+.button {
+    padding-bottom: 5em;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+    background-color: white;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.footer {
+    padding-bottom: 25px;
+}
