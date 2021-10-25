@@ -35,11 +35,6 @@ hr {
     width: 50px;
 }
 
-.upper-list {
-    padding-bottom: 1em;
-}
-
-
 /* Desktop */
 @media screen and (min-width: 1024px) {
     .about {
@@ -84,17 +79,6 @@ hr {
 
     .accomplishments-heading {
         padding-top: 1em;
-    }
-
-    .lower-list {
-        padding: 0 4em 3em 0;
-    }
-
-    .list-wrapper {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        padding-bottom: 4em;
     }
 
 }

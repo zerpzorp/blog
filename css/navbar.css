@@ -61,7 +61,7 @@ a:hover,
 
 /* Desktop Menu */
 
-@media(min-width: 960px) {
+@media screen and (min-width: 960px) {
 
     .logo {
         flex: 1;
